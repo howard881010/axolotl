@@ -11,7 +11,7 @@ datasets:
     type: alpaca
 dataset_prepared_path: last_run_prepared
 val_set_size: 0.05
-output_dir: ./axolotl/outputs/qlora-out
+output_dir: ./axolotl/outputs/Yelp-finetune
 
 adapter: qlora
 lora_model_dir:
@@ -27,7 +27,7 @@ lora_target_modules:
 lora_target_linear: true
 lora_fan_in_fan_out:
 
-wandb_project:
+wandb_project: finetune
 wandb_entity:
 wandb_watch:
 wandb_name:
